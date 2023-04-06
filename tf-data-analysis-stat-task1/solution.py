@@ -3,10 +3,10 @@ import numpy as np
 
 chat_id = 578001199
 
+
 def solution(x: np.array) -> float:
-    d = -31+np.exp(1) 
-    var = (np.exp(2)-2)*d**2
-    
-    a = time/(x.mean()**2) 
+	time = 10
+	d = -31+np.exp(1) 
+	a =  ((np.mean(x) - d) / time)
     return a
-	
+
